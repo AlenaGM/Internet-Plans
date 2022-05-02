@@ -1,0 +1,25 @@
+[{
+    "price": "300",
+    "speed": "10",
+    "description": "Объём включенного трафика не ограничен",
+    "darkColor": "#229cab",
+    "lightColor": "#2cc1d5"
+},{
+    "price": "450",
+    "speed": "50",
+    "description": "Объём включенного трафика не ограничен",
+    "darkColor": "#1f8972",
+    "lightColor": "#24ae8d"
+},{
+    "price": "550",
+    "speed": "100",
+    "description": "Объём включенного трафика не ограничен",
+    "darkColor": "#c2554e",
+    "lightColor": "#f46a5f"
+},{
+    "price": "1000",
+    "speed": "200",
+    "description": "Объём включенного трафика не ограничен",
+    "darkColor": "#282e37",
+    "lightColor": "#333a44"
+}]
