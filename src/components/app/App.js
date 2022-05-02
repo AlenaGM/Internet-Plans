@@ -1,4 +1,4 @@
-import './app.css';
+import './app.scss';
 import Card from '../card/Card';
 import plans from '../../resources/data.json';
 
