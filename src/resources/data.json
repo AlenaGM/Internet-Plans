@@ -15,7 +15,8 @@
     "speed": "100",
     "description": "Объём включенного трафика не ограничен",
     "darkColor": "#c2554e",
-    "lightColor": "#f46a5f"
+    "lightColor": "#f46a5f",
+    "isAction": true
 },{
     "price": "1000",
     "speed": "200",

@@ -13,7 +13,8 @@ function App() {
           speed={plan.speed}
           description={plan.description}
           darkColor={plan.darkColor}
-          lightColor={plan.lightColor}/>
+          lightColor={plan.lightColor}
+          isAction={plan.isAction}/>
           )
         }
       </div>

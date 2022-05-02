@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700&display=swap');
+
+body {
+    min-width: 350px;
+}
+
+#root {
+    min-height: 100vh;
+}
+
+* {
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -5,4 +23,63 @@
   text-align: center;
   justify-content: center;
   background-color: #fafafa;
+  align-items: center;
+  padding: 24px;
+}
+
+.app__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: fit-content;
+}
+
+.app__card {
+  background-color: #2cc1d5;
+  width: 200px;
+  box-shadow: 0 0 0 1px #bbbbbb1a, 0 6px 12px #0000001a;
+}
+
+.app__card div {
+  border: solid 1px #fff;
+  padding: 16px;
+}
+
+.app__card div:first-of-type {
+  background-color: #229cab;
+  font-size: 18px;
+}
+
+.app__card div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: baseline
+}
+
+.app__card div:nth-of-type(2) span {
+  font-size: 40px;
+  padding: 0px 5px 0px 5px;
+}
+
+.up {
+  transform: translateY(-22px);
+}
+
+.app__card div:nth-of-type(3) {
+  border: solid 1px #fff;
+  padding: 16px;
+  background-color: #f8f8f8;
+  color: #97989a;
+}
+
+.app__card div:last-of-type {
+  border: solid 1px #fff;
+  padding: 16px;
+  background-color: #eeeeed;
+  color: #97989a;
+}
+
+.card_action {
+  transform: scale(1.1,1.1);
 }
