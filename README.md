@@ -1,2 +1,2 @@
-# internet-plans
+# Internet-Tarif-Plans
 Cписок тарифов интернет провайдера
