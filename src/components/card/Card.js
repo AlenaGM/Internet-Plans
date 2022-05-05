@@ -1,10 +1,15 @@
-import {useState} from 'react'
+import { useState } from "react";
 
 
 const Card = (props) => {
+    const [pressed, setPressed] = useState(false);
+
+    const handleChange = () => {
+        setPressed(!pressed);
+    }
 
     return(
-        <div  className={props.isAction ? 'app__card card_action' : 'app__card'}>
+        <div  className={pressed ? 'app__card card_action' : 'app__card'} onClick={handleChange}>
             <div>Безлимитный {props.price}</div>
             <div><p className="up">руб</p><span>{props.price}</span>/мес</div>
             <div>до {props.speed} Мбит/сек</div>
