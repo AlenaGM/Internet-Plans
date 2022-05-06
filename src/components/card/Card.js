@@ -1,22 +1,24 @@
-import { useState } from "react";
 
 
-const Card = (props) => {
-    const [pressed, setPressed] = useState(false);
 
-    const handleChange = () => {
-        setPressed(!pressed);
+const Card = ({price,speed,description, isSelected,onClick}) => {
+
+    const handleClick = () => {
+        console.log(`Click 12 ${price}`);
+        onClick(price);
     }
 
     return(
-        <div  className={pressed ? 'app__card card_action' : 'app__card'} onClick={handleChange}>
-            <div>Безлимитный {props.price}</div>
-            <div><p className="up">руб</p><span>{props.price}</span>/мес</div>
-            <div>до {props.speed} Мбит/сек</div>
-            <div>{props.description}</div>
+        <div  className={isSelected? 'app__card card_action' : 'app__card'}
+        onClick={handleClick}>
+            <div>Безлимитный {price}</div>
+            <div><p className="up">руб</p><span>{price}</span>/мес</div>
+            <div>до {speed} Мбит/сек</div>
+            <div>{description}</div>
         </div>
     )
 
 }
 
 export default Card;
+
