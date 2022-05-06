@@ -7,7 +7,7 @@ function App() {
 
   const [plan, setPlan] = useState();
 
-  const handleClick = (plan) =>{
+  const handleClick = (plan) => {
     setPlan(plan);
   }
 
@@ -18,12 +18,12 @@ function App() {
           plans.map((item) => {
           return (
             <Card
-            key={item.id}
-            isSelected={item.id === plan}
-            onClick={handleClick}
-            price={item.price}
-            speed={item.speed}
-            description={item.description}
+              key={item.price}
+              isSelected={item.price === plan}
+              onClick={handleClick}
+              price={item.price}
+              speed={item.speed}
+              description={item.description}
             />
           );
 

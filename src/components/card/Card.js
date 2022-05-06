@@ -1,7 +1,6 @@
 
 
-
-const Card = ({price,speed,description, isSelected,onClick}) => {
+const Card = ({price,speed,description,isSelected,onClick}) => {
 
     const handleClick = () => {
         onClick(price);
