@@ -18,7 +18,8 @@ function App() {
           plans.map((item) => {
           return (
             <Card
-            isSelected={item.price === plan}
+            key={item.id}
+            isSelected={item.id === plan}
             onClick={handleClick}
             price={item.price}
             speed={item.speed}
