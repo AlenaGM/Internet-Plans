@@ -12,8 +12,7 @@ function App() {
           <Card
           price={plan.price}
           speed={plan.speed}
-          description={plan.description}
-          isAction={plan.isAction}/>
+          description={plan.description}/>
           )
         }
       </div>
