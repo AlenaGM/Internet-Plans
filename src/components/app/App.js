@@ -20,7 +20,6 @@ function App() {
             <Card
             isSelected={item.price === plan}
             onClick={handleClick}
-            tag={'card_action'}
             price={item.price}
             speed={item.speed}
             description={item.description}

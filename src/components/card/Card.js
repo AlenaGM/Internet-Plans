@@ -4,13 +4,11 @@
 const Card = ({price,speed,description, isSelected,onClick}) => {
 
     const handleClick = () => {
-        console.log(`Click 12 ${price}`);
         onClick(price);
     }
 
     return(
-        <div  className={isSelected? 'app__card card_action' : 'app__card'}
-        onClick={handleClick}>
+        <div  className={isSelected? 'app__card card_action' : 'app__card'} onClick={handleClick}>
             <div>Безлимитный {price}</div>
             <div><p className="up">руб</p><span>{price}</span>/мес</div>
             <div>до {speed} Мбит/сек</div>
