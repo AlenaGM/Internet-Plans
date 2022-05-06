@@ -1,12 +1,9 @@
-import { useState } from 'react';
+
 
 
 const Card = ({price,speed,description,isSelected,onClick}) => {
 
-    //const [tag, setTag] = useState(false);
-
     const handleClick = () => {
-        //setTag(!tag);
         onClick(price);
     }
 
