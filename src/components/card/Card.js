@@ -1,6 +1,3 @@
-
-
-
 const Card = ({price,speed,description,isSelected,onClick}) => {
 
     const handleClick = () => {
@@ -19,4 +16,5 @@ const Card = ({price,speed,description,isSelected,onClick}) => {
 }
 
 export default Card;
+
 

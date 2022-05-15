@@ -7,8 +7,11 @@ function App() {
 
   const [plan, setPlan] = useState();
 
-  const handleClick = (plan) => {
-    setPlan(plan);
+  const handleClick = (newPlan) => {
+    if (newPlan === plan) {
+      return setPlan(null);
+    }
+    return setPlan(newPlan);
   }
 
   return (
