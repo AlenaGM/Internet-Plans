@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/internet-plans/static/css/main.ec823822.css",
+    "main.js": "/internet-plans/static/js/main.b6c2854b.js",
+    "index.html": "/internet-plans/index.html",
+    "main.ec823822.css.map": "/internet-plans/static/css/main.ec823822.css.map",
+    "main.b6c2854b.js.map": "/internet-plans/static/js/main.b6c2854b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec823822.css",
+    "static/js/main.b6c2854b.js"
+  ]
+}
