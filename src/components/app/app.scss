@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700&display=swap");
 
 body {
-    min-width: 350px;
+  min-width: 350px;
 }
 
 #root {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 * {
-    font-family: "Roboto Condensed", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #fff;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
 }
 
 .app {
@@ -33,7 +33,7 @@ body {
   flex-direction: row;
   justify-content: center;
   width: fit-content;
-  }
+}
 
 .app__card {
   &:first-of-type {
@@ -102,10 +102,9 @@ body {
 
 .up {
   transform: translateY(-22px);
+  font-size: 22px;
 }
 
 .card_action {
-  transform: scale(1.1,1.1);
+  transform: scale(1.1, 1.1);
 }
-
-

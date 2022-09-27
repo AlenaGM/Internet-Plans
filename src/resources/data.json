@@ -1,17 +1,22 @@
-[{
-    "price": "300",
+[
+  {
+    "price": "22,99",
     "speed": "10",
-    "description": "Объём включенного трафика не ограничен"
-},{
-    "price": "450",
+    "description": "unlimited bandwidth"
+  },
+  {
+    "price": "29,99",
     "speed": "50",
-    "description": "Объём включенного трафика не ограничен"
-},{
-    "price": "550",
+    "description": "unlimited bandwidth"
+  },
+  {
+    "price": "34,99",
     "speed": "100",
-    "description": "Объём включенного трафика не ограничен"
-},{
-    "price": "1000",
+    "description": "unlimited bandwidth"
+  },
+  {
+    "price": "41,99",
     "speed": "200",
-    "description": "Объём включенного трафика не ограничен"
-}]
+    "description": "unlimited bandwidth"
+  }
+]
