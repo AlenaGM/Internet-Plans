@@ -1,13 +1,10 @@
 # Internet-Tarif-Plans
-_List of Internet Tarif Cards_
+_List of Internet Tarif Plans_
 
-Cписок тарифов интернет провайдера
-Реализуйте список тарифов как на картинке, выделив "Тариф" как
-компонент. Сделайте так, чтобы тариф с ценой 550р выделялся заметнее
-остальных
-Условный рендеоинг
-Интерактивность. Возможность выбирать тариф нажатием на него
-props qnd state
+React study project:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Card-components;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Conditional Rendering;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Possibility to pick a card by clicking on it.<br>
 
 
 ## Result
