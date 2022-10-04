@@ -26,4 +26,4 @@ React study project:<br>
   
 
    [ITGirlSchool]: <https://itgirlschool.com/en>
-   [Internet-Tarif-Plans]: <alenagm.github.io/Internet-Tarif-Plans/>
+   [Internet-Tarif-Plans]: <https://alenagm.github.io/internet-plans/>
