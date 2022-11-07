@@ -1,5 +1,5 @@
 # Internet-Tarif-Plans
-_List of Internet Tarif Plans_
+_List of Internet Tarif Plans_ 
 
 React study project:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Card-components;<br>
