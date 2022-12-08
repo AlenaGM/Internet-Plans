@@ -8,7 +8,7 @@ const Card = ({ price, speed, description, isSelected, onClick }) => {
       className={isSelected ? "app__card card_action" : "app__card"}
       onClick={handleClick}
     >
-      <div>Illimité {price}</div>
+      <div>Unlimited {price}</div>
       <div>
         <p className="up">€</p>
         <span>{price}</span>/month
