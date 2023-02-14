@@ -1,4 +1,4 @@
-# Internet-Tarif-Plans
+# Internet Tarif Plans
 _List of Internet tarif plans_ 
 
 React study project:<br>
