@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 # Internet-Tarif-Plans
 
 _List of Internet Tarif Plans._
+=======
+# Internet Tarif Plans
+_List of Internet tarif cards_ 
+>>>>>>> bf06bdd83ad89b31369c6504afcad5f02ed3dd26
 
 React study project:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&check;&nbsp;&nbsp; Card-components;<br>
